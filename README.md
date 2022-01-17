@@ -1,3 +1,1 @@
-# Woerth.AI
-
-Website repository.
+# Weorth, LLC - Website

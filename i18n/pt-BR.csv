@@ -1,0 +1,119 @@
+home|Home
+about|Sobre
+services|Serviços
+products|Products
+contact|Contato
+getstarted|Saiba Mais
+
+intro.title|Soluções inteligentes desenvolvidas por IA
+intro.subtitle|Chegue mais longe com o poder de IA
+
+about.title|Sobre nós
+about.text|Na Weorth nós acreditamos que a tecnologia tem o propósito de fazer do mundo um lugar melhor, aumentando a qualidade de vida das pessoas dentro e suas famílias e comunidades.
+
+mission.title|Missão
+mission.text|Apostamos em tecnologias de inteligência artificial para desenvolver softwares de excelência voltados para a saúde física, mental, financeira, social, emocional e profissional.
+
+values.title|Nossos Valores
+values.text01|<b>Honestidade:</b> comprometimento com a ética dentro do trabalho e da sociedade
+values.text02|<b>Vida:</b> prioridade ao meio ambiente e pessoas
+values.text03|<b>Confiabialidade:</b> convicção  de um ambiente leal aos valores e às pessoas
+values.text04|<b>Equilíbrio:</b> segurança financeira, psicológica, física e emocional
+values.text05|<b>Transparência:</b> clareza de informações
+
+tab.1.title|Blockchain & Descentralização
+tab.1.content|Através da tecnologia de Blockchain e AI queremos descentralizar e modernizar as formas de fazer negócios através de serviços e produtos na plataforma. Nosso foco é fornecer a melhor opção do mercado para os nossos clientes de forma rápida, segura e financeiramente acessível. 
+tab.2.title|Ações Humanitárias
+tab.2.content|Com os nossos produtos, pessoas ao redor do mundo tem a possibilidade de acesso à informação e oportunidade de renda extra através de seus próprios serviços. Além disso,  o nosso produto WICG permite que pessoas com redução ou perda de suas capacidades visuais possam entender uma imagem através de sua descrição por áudio. 
+tab.3.title|Consciência Ambiental
+tab.3.content|Na Weorth conseguimos entender os seus dados (numéricos ou de imagens) para análise de consumos de insumos em geral para definir as melhores formas de uso e distribuição, ou mesmo diminuir a emissão de poluentes. 
+tab.4.title|Educação
+tab.4.content|Ligando toda a cadeia de produtos da Weorth, conseguimos levar informação e conhecimento para todos os cantos do mundo. O nosso objetivo é alavancar o acesso à teoria e prática de inteligência artificial para todas as pessoas interessadas na ferramenta. 
+
+services.title|Serviços
+services.subtitle|Alavanque seu negócio com nosso expertise em engenharia de IA
+services.text01|Ao escolher uma empresa no ramo de inteligência artificial, vá com aquela que te ofereça experiência real no ramo de IA. 
+services.text02|O time de engenharia de IA da Weorth arquiteta, redesenha e customiza sistemas baseados em IA como parte de nossos produtos, mas também oferece ferramentas prontas para facilitar que você complete seu projeto de forma rápida e econômica. 
+services.box01.title|Digital Twin
+services.box01.text|A Weorth permite que as organizações aproveitem seus sistemas empresariais, armazenamentos de dados e fontes de dados distintas, unificando seus dados em um C3 AI Digital Twin num modelo de objeto unificado.
+services.box02.title|Sistemas Especialistas
+services.box02.text|Projetamos software para resolver problemas complexos através de dados, representados principalmente como regras "îf-then", em vez de procedimentos convencionais de código.
+services.box03.title|Visão Computacional
+services.box03.text|A Weorth oferece serviços e soluções especializados de visão computacional que proporcionam aos nossos clientes o salto inicial em IA para transformar seus dados não estruturados em análises e insights claros e acionáveis.
+services.box04.title|Processamento de Linguagem Natural (PLN)
+services.box04.text|Programamos soluções de PNL para analisar conteúdo estruturado e semiestruturado, incluindo consultas de pesquisa, dados extraídos, dados de negócios e áudio para detectar tendências emergentes, fornecer insights operacionais e realizar análises preditivas.
+
+count.1.number|12
+count.1.label|Anos de Experiência
+count.2.number|462
+count.2.label|Modelos treinados
+count.3.number|10004
+count.3.label|Horas de treinamento
+count.4.number|72
+count.4.label|Deployments
+
+testimonials.title|Testimonials
+testimonials.text|
+testimonials.1.title|Udell S.
+testimonials.1.position|Senior AI Engineer
+testimonials.1.text|Wow what great service, I love it! I will recommend you to my colleagues. It's exactly what I've been looking for. I like Weorth more and more each day because it makes my life a lot easier.
+testimonials.2.title|Candy Z.
+testimonials.2.position|Co-Founder
+testimonials.2.text|Weorth is the most valuable business resource we have EVER purchased. I am really satisfied with my Weorth. Weorth is awesome!
+testimonials.3.title|Ava X.
+testimonials.3.position|Product Manager
+testimonials.3.text|Weorth has completely surpassed our expectations. Weorth should be nominated for service of the year. Not able to tell you how happy I am with Weorth.
+testimonials.4.title|Jerome M.
+testimonials.4.position|CTO
+testimonials.4.text|You guys rock! Very easy to use. Definitely worth the investment.
+testimonials.5.title|Tabor A.
+testimonials.5.position|Data Scientist
+testimonials.5.text|Weorth is worth much more than I paid. You won't regret it.
+
+products.title|Produtos
+products.text|
+products.1.title|WAIN
+products.1.text|Weorth AI Network (Redes de IA Weorth)
+products.2.title|WIP
+products.2.text|Weorth Identification Platform (Plataforma de Identificação Weorth)
+products.3.title|WAV
+products.3.text|Weorth Automated Computer Vision (Visão Computacional Automatizada Weorth)
+products.4.title|WICG
+products.4.text|Weorth Image Caption Generator (Gerador de descrição de imagem)
+
+qa.title|Frequently Asked Questions
+qa.q1|Como a inteligência artificial vai mudar o futuro?
+qa.a1|O impacto da inteligência artificial será maior e acontecerá mais cedo do que podemos nos preparar. Provavelmente mudará ou interromperá quase tudo que vivenciamos em nossas vidas e na sociedade como um todo.
+qa.q2|Por que precisamos de Inteligência Artificial?
+qa.a2|The basic premise of AI is that it allows computer programs to learn, rather than needing to be specifically programmed to perform certain tasks. Because of AI, computers can now learn to do huge amounts of tasks and activities that used to require human intelligence. The more data the AI has, the better results it can produce.
+qa.q3|How can we apply artificial intelligence?
+qa.a3|As with the other technologies of the third industrial revolution, you don’t need to be an AI developer, or work in the industry, to want to learn about AI. Every one of us should be thinking about how we can apply AI in the different areas of our personal and professional lives.
+qa.q4|What are some common benefits of artificial intelligence technology?
+qa.a4|As AI will impact so many areas of our lives and businesses, there are actually enormous amounts of direct and indirect benefits that can be brought about thanks to artificial intelligence.
+qa.q5|What are the current capabilities of artificial intelligence?
+qa.a5|Google Duplex can make phone calls to make restaurant and hair appointments. Google Deep Mind won a global Starcraft game challenge against gaming pros. Amazon uses AI for book and product recommendations. Websites are using Chat-bots to answer basic customer queries. Airports are using image recognition for staff security. Rolls Royce is using AI for predictive maintenance and servicing of airplane engines. Informatica is using AI for compliance and data gathering and analysis purposes. Fintech is using AI to combine and analyse more diverse datasets. In Healthcare AI can help analyse more data for preventative medicine. Baidu in China is producing self driving buses for large cities.
+qa.q6|What is the future of artificial intelligence?
+qa.a6|Automated transport, taking over dangerous jobs, robots working with humans, improved elderly care, cyborg (organic/bio-mechanic) organisms, environment monitoring and response for climate change goals.
+
+quote.name|John McCarthy
+quote.body|"If it takes 200 years to achieve artificial intelligence, and then finally there is a textbook that explains how its done, the hardest part of that textbook to write will be the part that explains why people didn’t think of it 200 years ago…"
+
+contact.title|Contato
+contact.text|Mande-nos um email ou ligue para nós em caso de qualquer dúvida sobre nossa engenharia de IA. Na Weortth, gostamos de ouvir nossos clientes e ficaremos felizes em responder ,a quaisquer perguntas.
+
+emailus|Mande nos um e-mail 
+callus|Ligue para nós
+location|Estados Unidos & Brasil
+phone|Fone
+email|E-mail
+
+useful.links|Links Úteis
+terms.service|Termos de serviços
+privacy.policy|Políticas de privacidade
+
+our.service|Nossos serviços 
+service01|Digital Twins 
+service02|Sistemas Especializados
+service03|Visão Computacional
+service04|Processamento de Linguagem Natural
+service05|Ciência de Dados

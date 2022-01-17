@@ -1,0 +1,119 @@
+home|Home
+about|About us
+services|Services
+products|Products
+contact|Contact
+getstarted|Get Started
+
+intro.title|Intelligent solutions powered by AI
+intro.subtitle|Achieve the impossible with the power of AI
+
+about.title|About us
+about.text|At Weorth we believe that technology has the purpose of making the world a better place by increasing the quality of life for people within and their families and communities.
+
+mission.title|Mission
+mission.text|We invest in artificial intelligence technologies to develop software with excellence, focusing on physical, mental, financial, social, emotional, and professional health.
+
+values.title|Our Weorth Values
+values.text01|<b>Honesty:</b> commitment to ethics in work and society 
+values.text02|<b>Life:</b> priority to the environment and people 
+values.text03|<b>Reliability:</b> conviction of a place loyal to virtues and people
+values.text04|<b>Equilibrium:</b> financial, psychological, physical, and emotional certainties
+values.text05|<b>Transparency:</b> explicitness of information
+
+tab.1.title|Blockchain & Decentralization
+tab.1.content|Through Blockchain and AI technology, we want to decentralize and modernize the ways of doing business through services and products on the platform. Our focus is to provide the best option on the market to our customers in a fast, secure, and affordable way.
+tab.2.title|Helping Humanity
+tab.2.content|With our products, people around the world have the possibility to access information and the opportunity to earn extra income through their own services. In addition, our WICG product allows people with reduced or lost visual abilities to understand an image through its audio description.
+tab.3.title|Environmental Awareness
+tab.3.content|At Weorth, we are able to understand your data (numerical or images) for analysis of consumption of supplies in general in order to define the best forms of use and distribution, or even reduce the emission of pollutants.
+tab.4.title|Education
+tab.4.content|By connecting the entire Weorth product chain, we are able to bring information and knowledge to all corners of the world. Our goal is to leverage access to artificial intelligence theory and practice for everyone interested in the tool.
+
+services.title|Services
+services.subtitle|Leverage our AI engineering expertise
+services.text01|When choosing an artificial intelligence company, go with one that has real-life experience in the field of AI.
+services.text02|Weorth's team of AI engineers build, redesign, and customize AI-driven systems as part of your existing in-house team or on a turnkey basis to help you complete your project quickly and affordably.
+services.box01.title|Digital Twins
+services.box01.text|Weorth enables organizations to leverage their existing enterprise systems, data stores, and disparate data sources by unifying their data into a C3 AI Digital Twin on a unified object model.
+services.box02.title|Expert Systems
+services.box02.text|We engineer software to solve complex problems by reasoning through bodies of knowledge, represented mainly as if-then rules rather than through conventional procedural code.
+services.box03.title|Computer Vision (CV)
+services.box03.text|Weorth offers specialized services and solutions for Computer Vision that give you a jump start on your AI lifecycle to transform your unstructured data into clear actionable analytics and insights.
+services.box04.title|Natural Language Processing (NLP)
+services.box04.text|We program NLP solutions to analyze structured and semi-structured content, including search queries, mined data, business data, and audio to detect emerging trends, provide operational insights, and perform predictive analytics.
+
+count.1.number|12
+count.1.label|Years Of Experience
+count.2.number|462
+count.2.label|Trained Models
+count.3.number|10004
+count.3.label|Hours Of Training
+count.4.number|72
+count.4.label|Deployments
+
+testimonials.title|Testimonials
+testimonials.text|
+testimonials.1.title|Udell S.
+testimonials.1.position|Senior AI Engineer
+testimonials.1.text|Wow what great service, I love it! I will recommend you to my colleagues. It's exactly what I've been looking for. I like Weorth more and more each day because it makes my life a lot easier.
+testimonials.2.title|Candy Z.
+testimonials.2.position|Co-Founder
+testimonials.2.text|Weorth is the most valuable business resource we have EVER purchased. I am really satisfied with my Weorth. Weorth is awesome!
+testimonials.3.title|Ava X.
+testimonials.3.position|Product Manager
+testimonials.3.text|Weorth has completely surpassed our expectations. Weorth should be nominated for service of the year. Not able to tell you how happy I am with Weorth.
+testimonials.4.title|Jerome M.
+testimonials.4.position|CTO
+testimonials.4.text|You guys rock! Very easy to use. Definitely worth the investment.
+testimonials.5.title|Tabor A.
+testimonials.5.position|Data Scientist
+testimonials.5.text|Weorth is worth much more than I paid. You won't regret it.
+
+products.title|Products
+products.text|
+products.1.title|WAIN
+products.1.text|Weorth AI Network
+products.2.title|WIP
+products.2.text|Weorth Identification Platform
+products.3.title|WAV
+products.3.text|Weorth Automated Vision
+products.4.title|WICG
+products.4.text|Weorth Image Caption Generator
+
+qa.title|Frequently Asked Questions
+qa.q1|How will artificial intelligence change the future?
+qa.a1|The impact of artificial intelligence will be greater and will happen sooner than we can prepare for. It will likely change or disrupt just about everything we experience in our lives and in society as a whole.
+qa.q2|Why do we need artificial intelligence?
+qa.a2|The basic premise of AI is that it allows computer programs to learn, rather than needing to be specifically programmed to perform certain tasks. Because of AI, computers can now learn to do huge amounts of tasks and activities that used to require human intelligence. The more data the AI has, the better results it can produce. 
+qa.q3|How can we apply artificial intelligence?
+qa.a3|As with the other technologies of the third industrial revolution, you don’t need to be an AI developer, or work in the industry, to want to learn about AI. Every one of us should be thinking about how we can apply AI in the different areas of our personal and professional lives.
+qa.q4|What are some common benefits of artificial intelligence technology?
+qa.a4|As AI will impact so many areas of our lives and businesses, there are actually enormous amounts of direct and indirect benefits that can be brought about thanks to artificial intelligence.
+qa.q5|What are the current capabilities of artificial intelligence?
+qa.a5|Google Duplex can make phone calls to make restaurant and hair appointments. Google Deep Mind won a global Starcraft game challenge against gaming pros. Amazon uses AI for book and product recommendations. Websites are using Chat-bots to answer basic customer queries. Airports are using image recognition for staff security. Rolls Royce is using AI for predictive maintenance and servicing of airplane engines. Informatica is using AI for compliance and data gathering and analysis purposes. Fintech is using AI to combine and analyse more diverse datasets. In Healthcare AI can help analyse more data for preventative medicine. Baidu in China is producing self driving buses for large cities.
+qa.q6|What is the future of artificial intelligence?
+qa.a6|Automated transport, taking over dangerous jobs, robots working with humans, improved elderly care, cyborg (organic/bio-mechanic) organisms, environment monitoring and response for climate change goals.
+
+quote.name|John McCarthy
+quote.body|"If it takes 200 years to achieve artificial intelligence, and then finally there is a textbook that explains how its done, the hardest part of that textbook to write will be the part that explains why people didn’t think of it 200 years ago…"
+
+contact.title|Contact
+contact.text|Drop us a line or give us a ring with any questions regarding our AI engineering. We love to hear from you and are happy to answer any questions.
+
+emailus|Email Us
+callus|Call Us
+location|United States & Brazil
+phone|Phone
+email|Email
+
+useful.links|Useful Links
+terms.service|Terms of service
+privacy.policy|Privacy policy
+
+our.service|Our Services
+service01|Digital Twins
+service02|Expert Systems
+service03|Computer Vision (CV)
+service04|Natural Language Processing (NLP)
+service05|Data Science
