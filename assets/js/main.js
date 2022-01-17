@@ -34,7 +34,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -160,7 +160,7 @@
     const href = window.location.href;
     const lang = window.navigator.language || navigator.browserLanguage;
     if (href.includes('http') && (href.includes('index.html') || !href.includes('.html'))) {
-      if (lang.toLowerCase() === 'pt-BR') {
+      if (lang.toLowerCase() === 'pt-br') {
         window.location.href = 'index_pt-BR.html';
       } else {
         window.location.href = 'index_en-US.html';
@@ -235,7 +235,7 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
