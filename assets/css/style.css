@@ -661,7 +661,7 @@ section {
   margin-top: 30px;
 }
 .tabs .tab-content .big-icon {
-  font-size: 120px;
+  font-size: 80px;
 }
 @media (max-width: 768px) {
   .tabs .tab-content .big-icon {
@@ -685,7 +685,7 @@ section {
   color: #e03a3c;
 }
 .tabs .tab-pane p:last-child {
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin-bottom: 0;
   /* text-align: center; */
 }
