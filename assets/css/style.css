@@ -1,7 +1,9 @@
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
+  font-display: swap;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -134,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -222,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #111111;
@@ -1139,7 +1141,7 @@ section {
   transition: color 0.3s;
   margin: 0 3px;
   border-radius: 50px;
-  width: 72px; 
+  width: 72px;
   height: 36px;
   background: #e03a3c;
   display: inline-flex;
