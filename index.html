@@ -4,10 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv=”Pragma” content=”no-cache”>
+  <meta http-equiv=”Expires” content=”-1″>
+  <meta http-equiv=”CACHE-CONTROL” content=”NO-CACHE”>
 
   <title>WEORTH.AI</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="{{mission.text}}" name="description">
+  <meta content="{{keywords}}" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -434,14 +437,14 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>{{emailus}}</h3>
-                  <p><a href="mailto:info@weorth.ai">info@weorth.ai</a></p>
+                  <p><a href="mailto:{{email.address}}">{{email.address}}</a></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>{{callus}}</h3>
-                  <p><a href="tel:+15598255751">+1 559 825 5751</a></p>
+                  <p><a href="tel:{{phone.number}}">{{phone.number}}</a></p>
                 </div>
               </div>
             </div>
@@ -464,8 +467,8 @@
             <h3>WEORTH<span>AI</span></h3>
             <p>
               {{location}}<br><br>
-              <strong>{{phone}}:</strong> <a href="tel:+15598255751">+1 559 825 5751</a><br>
-              <strong>{{email}}:</strong> <a href="mailto:info@weorth.ai">info@weorth.ai</a><br>
+              <strong>{{phone}}:</strong> <a href="tel:{{phone.number}}">{{phone.number}}</a><br>
+              <strong>{{email}}:</strong> <a href="mailto:{{email.address}}">{{email.address}}</a><br>
             </p>
           </div>
 
@@ -516,13 +519,13 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script async defer src="assets/vendor/purecounter/purecounter.js"></script>
+  <script async defer src="assets/vendor/aos/aos.js"></script>
+  <script async defer src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script async defer src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script async defer src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script async defer src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script async defer src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js?v=1"></script>
