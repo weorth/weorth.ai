@@ -1,7 +1,7 @@
 home|Home
 about|Sobre
 services|Serviços
-products|Products
+products|Produtos
 contact|Contato
 getstarted|Saiba Mais
 
@@ -73,30 +73,30 @@ testimonials.5.text|Weorth is worth much more than I paid. You won't regret it.
 products.title|Produtos
 products.text|
 products.1.title|WAIN
-products.1.text|Weorth AI Network (Redes de IA Weorth)
+products.1.text|Redes de IA (Weorth AI Network)
 products.2.title|WIP
-products.2.text|Weorth Identification Platform (Plataforma de Identificação Weorth)
+products.2.text|Plataforma de Identificação (Weorth Identification Platform)
 products.3.title|WAV
-products.3.text|Weorth Automated Computer Vision (Visão Computacional Automatizada Weorth)
+products.3.text|Visão Computacional Automatizada (Weorth Automated Computer Vision)
 products.4.title|WICG
-products.4.text|Weorth Image Caption Generator (Gerador de descrição de imagem)
+products.4.text|Gerador de descrição de imagem (Weorth Image Caption Generator)
 
-qa.title|Frequently Asked Questions
+qa.title|FAQ
 qa.q1|Como a inteligência artificial vai mudar o futuro?
 qa.a1|O impacto da inteligência artificial será maior e acontecerá mais cedo do que podemos nos preparar. Provavelmente mudará ou interromperá quase tudo que vivenciamos em nossas vidas e na sociedade como um todo.
 qa.q2|Por que precisamos de Inteligência Artificial?
-qa.a2|The basic premise of AI is that it allows computer programs to learn, rather than needing to be specifically programmed to perform certain tasks. Because of AI, computers can now learn to do huge amounts of tasks and activities that used to require human intelligence. The more data the AI has, the better results it can produce.
-qa.q3|How can we apply artificial intelligence?
-qa.a3|As with the other technologies of the third industrial revolution, you don’t need to be an AI developer, or work in the industry, to want to learn about AI. Every one of us should be thinking about how we can apply AI in the different areas of our personal and professional lives.
-qa.q4|What are some common benefits of artificial intelligence technology?
-qa.a4|As AI will impact so many areas of our lives and businesses, there are actually enormous amounts of direct and indirect benefits that can be brought about thanks to artificial intelligence.
-qa.q5|What are the current capabilities of artificial intelligence?
-qa.a5|Google Duplex can make phone calls to make restaurant and hair appointments. Google Deep Mind won a global Starcraft game challenge against gaming pros. Amazon uses AI for book and product recommendations. Websites are using Chat-bots to answer basic customer queries. Airports are using image recognition for staff security. Rolls Royce is using AI for predictive maintenance and servicing of airplane engines. Informatica is using AI for compliance and data gathering and analysis purposes. Fintech is using AI to combine and analyse more diverse datasets. In Healthcare AI can help analyse more data for preventative medicine. Baidu in China is producing self driving buses for large cities.
-qa.q6|What is the future of artificial intelligence?
-qa.a6|Automated transport, taking over dangerous jobs, robots working with humans, improved elderly care, cyborg (organic/bio-mechanic) organisms, environment monitoring and response for climate change goals.
+qa.a2|A premissa básica da IA é que ela permite que os programas de computador aprendam, em vez de precisar ser especificamente programado para executar determinadas tarefas. Por causa da IA, os computadores agora podem aprender a realizar grandes quantidades de tarefas e atividades que costumavam exigir inteligência humana. Quanto mais dados a IA tiver, melhores resultados ela poderá produzir.
+qa.q3|Como podemos aplicar a inteligência artificial?
+qa.a3|Assim como as outras tecnologias da terceira revolução industrial, você não precisa ser um desenvolvedor de IA ou trabalhar no setor para querer aprender sobre IA. Cada um de nós deve estar pensando em como podemos aplicar a IA nas diferentes áreas de nossas vidas pessoais e profissionais.
+qa.q4|Quais são alguns benefícios comuns da tecnologia de inteligência artificial?
+qa.a4|Como a IA afetará muitas áreas de nossas vidas e negócios, existem enormes quantidades de benefícios diretos e indiretos que podem ser obtidos graças à inteligência artificial.
+qa.q5|Quais são as capacidades atuais da inteligência artificial?
+qa.a5|O Google Duplex pode fazer chamadas telefônicas para marcar compromissos em restaurantes e cabeleireiros. O Google Deep Mind venceu um desafio global de jogos Starcraft contra profissionais de jogos. A Amazon usa IA para recomendações de livros e produtos. Os sites estão usando chat-bots para responder a consultas básicas de clientes. Os aeroportos estão usando o reconhecimento de imagem para a segurança da equipe. A Rolls Royce está usando IA para manutenção preditiva e manutenção de motores de avião. A Informatica está usando IA para fins de conformidade e coleta e análise de dados. A Fintech está usando a IA para combinar e analisar conjuntos de dados mais diversos. Na área da saúde, a IA pode ajudar a analisar mais dados para medicina preventiva. A Baidu na China está produzindo ônibus autônomos para grandes cidades.
+qa.q6|Qual é o futuro da inteligência artificial?
+qa.a6|Transporte automatizado, assumindo trabalhos perigosos, robôs trabalhando com humanos, cuidados aprimorados com idosos, organismos Cyborg (orgânicos/biomecânicos), monitoramento ambiental e resposta às metas de mudança climática.
 
 quote.name|John McCarthy
-quote.body|"If it takes 200 years to achieve artificial intelligence, and then finally there is a textbook that explains how its done, the hardest part of that textbook to write will be the part that explains why people didn’t think of it 200 years ago…"
+quote.body|"Se levar 200 anos para alcançar a inteligência artificial e, finalmente, houver um livro que explique como isso é feito, a parte mais difícil desse livro de escrever será a parte que explica por que as pessoas não pensaram nisso há 200 anos…"
 
 contact.title|Contato
 contact.text|Mande-nos um email ou ligue para nós em caso de qualquer dúvida sobre nossa engenharia de IA. Na Weortth, gostamos de ouvir nossos clientes e ficaremos felizes em responder ,a quaisquer perguntas.
