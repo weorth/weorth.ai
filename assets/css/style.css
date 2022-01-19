@@ -3,7 +3,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-display: swap;
+  /* font-display: swap; */
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
