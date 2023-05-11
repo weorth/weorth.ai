@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv=”Pragma” content=”no-cache”>
+  <meta http-equiv=”Expires” content=”-1″>
+  <meta http-equiv=”CACHE-CONTROL” content=”NO-CACHE”>
+
+  <title>WEORTH.AI</title>
+  <meta content="{{mission.text}}" name="description">
+  <meta content="{{keywords}}" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Ubuntu:250,300,500,600" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <div class="logo-container">
+        <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>
+        <h1 class="logo me-auto"><a href="index.html">WEORTH<span>AI</span></a></h1>
+      </div>
+      <div class="full-flex"></div>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">{{home}}</a></li>
+          <li><a class="nav-link scrollto" href="#about">{{about}}</a></li>
+          <li><a class="nav-link scrollto" href="#services">{{services}}</a></li>
+          <li><a class="nav-link scrollto" href="#products">{{products}}</a></li>
+          <li><a class="nav-link scrollto" href="#contact">{{contact}}</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#about" class="get-started-btn scrollto">{{getstarted}}</a>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <div class="row">
+        <div class="col-xl-12">
+          <h1>{{intro.title}}</h1>
+          <h2>{{intro.subtitle}}</h2>
+          <a href="#about" class="btn-get-started scrollto">{{getstarted}}</a>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/aws.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/azure.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/fourth-brain.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/google-cloud.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/kaggle.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/pytorch.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/tensorflow.svg" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <h3>{{about.title}}</h3>
+            <p>{{about.text}}</p>
+            <br />
+            <h3>{{mission.title}}</h3>
+            <p>{{mission.text}}</p>
+          </div>
+          <div class="col-md-6">
+            <h3>{{values.title}}</h3>
+            <p>{{values.text01}}</p>
+            <p>{{values.text02}}</p>
+            <p>{{values.text03}}</p>
+            <p>{{values.text04}}</p>
+            <p>{{values.text05}}</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Tabs Section ======= -->
+    <section id="tabs" class="tabs">
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <i class="ri-stack-line"></i>
+              <h4 class="d-none d-lg-block">{{tab.1.title}}</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">{{tab.2.title}}</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <i class="ri-plant-line"></i>
+              <h4 class="d-none d-lg-block">{{tab.3.title}}</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <i class="ri-book-line"></i>
+              <h4 class="d-none d-lg-block">{{tab.4.title}}</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <p>{{tab.1.content}}</p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <i class="big-icon ri-stack-line" class="img-fluid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+                <p>{{tab.2.content}}</p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <i class="big-icon ri-body-scan-line" class="img-fluid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+                <p>{{tab.3.content}}</p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <i class="big-icon ri-plant-line" class="img-fluid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
+                <p>{{tab.4.content}}</p>
+              </div>
+              <div class="col-lg-4 order-1 order-lg-2 text-center">
+                <i class="big-icon ri-book-line" class="img-fluid"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Tabs Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg ">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{{services.title}}</h2>
+          <h3>{{services.subtitle}}</h3>
+          <p>{{services.text01}}</p>
+          <p>{{services.text02}}</p>
+        </div>
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="services">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-copy"></i>
+                <h4>{{services.box01.title}}</h4>
+                <p>{{services.box01.text}}</p>
+              </div>
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-hive"></i>
+                <h4>{{services.box02.title}}</h4>
+                <p>{{services.box02.text}}</p>
+              </div>
+            </div>
+            <div class="services">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-images"></i>
+                <h4>{{services.box03.title}}</h4>
+                <p>{{services.box03.text}} </p>
+              </div>
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-user-voice"></i>
+                <h4>{{services.box04.title}}</h4>
+                <p>{{services.box04.text}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-calendar"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{count.1.number}}" data-purecounter-duration="1" class="purecounter"></span>
+              <p>{{count.1.label}}</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-code-square"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{count.2.number}}" data-purecounter-duration="1" class="purecounter"></span>
+              <p>{{count.2.label}}</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-hourglass"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{count.3.number}}" data-purecounter-duration="1" class="purecounter"></span>
+              <p>{{count.3.label}}</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-cloud-arrow-up"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{count.4.number}}" data-purecounter-duration="1" class="purecounter"></span>
+              <p>{{count.4.label}}</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= Product Section ======= -->
+    <section id="products" class="product section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{{products.title}}</h2>
+          <p>{{products.text}}</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member wain" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/products/wain.png" class="img-fluid" alt="">
+                <div class="view-more">
+                  <a href="/wain">View</a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>{{products.1.title}}</h4>
+                <span>{{products.1.text}}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member wip" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/products/wip.png" class="img-fluid" alt="">
+                <div class="view-more">
+                  <a href="/wip">View</a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>{{products.2.title}}</h4>
+                <span>{{products.2.text}}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member wav" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/products/wav.png" class="img-fluid" alt="">
+                <div class="view-more">
+                  <a href="/wav">View</a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>{{products.3.title}}</h4>
+                <span>{{products.3.text}}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member wicg" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/products/wicg.png" class="img-fluid" alt="">
+                <div class="view-more">
+                  <a href="/wicg">View</a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>{{products.4.title}}</h4>
+                <span>{{products.4.text}}</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Product Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{{qa.title}}</h2>
+        </div>
+
+        <ul class="faq-list accordion" data-aos="fade-up">
+
+          <li>
+            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">{{qa.q1}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>{{qa.a1}}</p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">{{qa.q2}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>{{qa.a2}}</p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">{{qa.q3}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>{{qa.a3}}</p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">{{qa.q4}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>{{qa.a4}}</p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">{{qa.q5}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>{{qa.a5}}</p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">{{qa.q6}} <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>{{qa.a6}}</p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Black Section ======= -->
+    <section id="quote" class="quote section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{{quote.name}}</h2>
+          <p>{{quote.body}}</p>
+        </div>
+
+      </div>
+    </section><!-- End Quote Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{{contact.title}}</h2>
+          <p>{{contact.text}}</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>{{emailus}}</h3>
+                  <p><a href="mailto:{{email.address}}">{{email.address}}</a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>{{callus}}</h3>
+                  <p><a href="tel:{{phone.number}}">{{phone.number}}</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-12 footer-contact">
+            <h3>WEORTH<span>AI</span></h3>
+            <p>
+              {{location}}<br><br>
+              <strong>{{phone}}:</strong> <a href="tel:{{phone.number}}">{{phone.number}}</a><br>
+              <strong>{{email}}:</strong> <a href="mailto:{{email.address}}">{{email.address}}</a><br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>{{useful.links}}</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://weorth.ai">{{home}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">{{about}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">{{services}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{terms.service}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{privacy.policy}}</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>{{our.service}}</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{service01}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{service02}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{service03}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{service04}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{service05}}</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>WEORTH.AI</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits"></div>
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js?v=1"></script>
+
+</body>
+
+</html>
