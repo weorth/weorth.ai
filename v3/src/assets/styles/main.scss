@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100vw;
+
+  @media (max-width: $sm) {
+      font-size: 12px;
+  }
+}
+
+#app {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.simplesia {
+  @include fg-gradient(to right, #fedd00, #009739);
+
+  font-family: 'Heebo', sans-serif;
+}
+
+.videns {
+  @include fg-gradient(to right, $light, $info);
+
+  font-family: 'Kanit', sans-serif;
+}

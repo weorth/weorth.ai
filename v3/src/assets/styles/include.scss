@@ -1,0 +1,65 @@
+
+// Colors
+
+$background: #fcfcfc;
+$dark: #222222;
+$error: #780000;
+$info: #669bbc;
+$light: #ffffff;
+$muted: #cccccc;
+$primary: #c1121f;
+$secondary: #000000;
+$success: #697a21;
+
+
+// Sizes
+
+$sm: 800px;
+$md: 1024px;
+$lg: 1200px;
+
+
+// Mixins
+
+@mixin border {
+  border: 1px solid $primary;
+}
+
+@mixin box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@mixin button($bg, $fg) {
+  @include box;
+
+  background-color: $bg;
+  border: 1px solid $fg;
+  border-radius: 1rem;
+  color: $fg;
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 400;
+  padding: 1.75rem 3rem;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: darken($bg, 10%);
+  }
+}
+
+@mixin flex($direction, $align, $justify) {
+  align-items: $align;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+}
+
+@mixin bg-gradient($direction, $from, $to) {
+  background-image: linear-gradient($direction, $from, $to);
+}
+
+@mixin fg-gradient($direction, $from, $to) {
+  background-image: linear-gradient($direction, $from, $to);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
