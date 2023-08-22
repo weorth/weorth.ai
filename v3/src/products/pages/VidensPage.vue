@@ -27,7 +27,7 @@
           </w-col>
         </w-row>
         <w-row around class="block">
-          <img src="/src/assets/images/videns-alpha.jpg" />
+          <img src="/images/videns-alpha.jpg" />
         </w-row>
         <w-row evenly wrap>
           <div class="tip">

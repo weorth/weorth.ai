@@ -20,7 +20,7 @@ function handleQ(Q) {
           <p class="bold"><w-i18n t="hero.subtitle" /></p>
         </div>
         <div class="graphic">
-          <w-animation src="/src/assets/animations/arm.json" />
+          <w-animation src="/animations/arm.json" />
         </div>
       </w-row>
     </w-hero>
@@ -32,7 +32,7 @@ function handleQ(Q) {
         <w-card v-for="r in research" :key="r">
           <w-col between full>
             <h3><w-i18n :t="`${r}.title`" /></h3>
-            <w-animation class="animation" :src="`/src/assets/animations/${r}.json`" />
+            <w-animation class="animation" :src="`/animations/${r}.json`" />
             <p><w-i18n :t="`${r}.description`" /></p>
           </w-col>
         </w-card>

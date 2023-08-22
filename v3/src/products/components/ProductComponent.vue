@@ -17,7 +17,7 @@ defineProps({
           <w-i18n t="more" />
         </w-button>
       </w-col>
-      <img :src="`/src/assets/images/${name}.jpg`" />
+      <img :src="`/images/${name}.jpg`" />
     </w-row>
   </w-card>
 </template>

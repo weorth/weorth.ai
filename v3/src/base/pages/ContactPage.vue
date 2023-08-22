@@ -10,19 +10,19 @@
         <p><w-i18n t="contacts.intro" /></p>
         <w-row between>
           <w-col center full>
-            <div class="icon"><w-animation src="/src/assets/animations/email.json" /></div>
+            <div class="icon"><w-animation src="/animations/email.json" /></div>
             <h2><a href="mailto:info@weorth.ai" target="_blank"><w-i18n t="email" /></a></h2>
           </w-col>
           <w-col center full>
-            <div class="icon"><w-animation src="/src/assets/animations/facebook.json" /></div>
+            <div class="icon"><w-animation src="/animations/facebook.json" /></div>
             <h2><a href="https://facebook.com/weorthllc" target="_blank"><w-i18n t="facebook" /></a></h2>
           </w-col>
           <w-col center full>
-            <div class="icon"><w-animation src="/src/assets/animations/linkedin.json" /></div>
+            <div class="icon"><w-animation src="/animations/linkedin.json" /></div>
             <h2><a href="https://linkedin.com/in/weorthllc" target="_blank"><w-i18n t="linkedin" /></a></h2>
           </w-col>
           <w-col center full>
-            <div class="icon"><w-animation src="/src/assets/animations/x.json" /></div>
+            <div class="icon"><w-animation src="/animations/x.json" /></div>
             <h2><a href="https://x.com/weorthllc" target="_blank"><w-i18n t="x" /></a></h2>
           </w-col>
         </w-row>

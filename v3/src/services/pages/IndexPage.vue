@@ -13,7 +13,7 @@ const count = ref(15)
       <p><w-i18n t="service.intro" /></p>
       <w-row between wrap>
         <w-col around v-for="idx in count" :key="idx" class="service">
-          <w-animation v-if="animations.includes(idx)" :src="`/src/assets/animations/service${idx}.json`" />
+          <w-animation v-if="animations.includes(idx)" :src="`/animations/service${idx}.json`" />
           <w-service v-else :id="idx" />
         </w-col>
       </w-row>
