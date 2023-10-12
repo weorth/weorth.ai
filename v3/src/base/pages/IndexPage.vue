@@ -3,8 +3,8 @@
 import { ref } from 'vue'
 
 const currentQ = ref(1)
-const qa = ref(14)
-const research = ref(['edge', 'distributed', 'serverless'])
+const qa = ref(10)
+const solutions = ref(['market', 'projects', 'fields'])
 
 function handleQ(Q) {
   currentQ.value = Q
@@ -26,10 +26,10 @@ function handleQ(Q) {
     </w-hero>
     <w-container>
       <w-row center>
-        <w-title><w-i18n t="research" /></w-title>
+        <w-title><w-i18n t="solutions" /></w-title>
       </w-row>
       <w-row evenly>
-        <w-card v-for="r in research" :key="r">
+        <w-card v-for="r in solutions" :key="r">
           <w-col between full>
             <h3><w-i18n :t="`${r}.title`" /></h3>
             <w-animation class="animation" :src="`/animations/${r}.json`" />

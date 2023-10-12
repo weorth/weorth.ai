@@ -1,6 +1,7 @@
 
 // Components
 import ProductComponent from '@/products/components/ProductComponent.vue'
+import VidensComponent from '@/products/components/VidensComponent.vue'
 
 // Pages
 import IndexPage from '@/products/pages/IndexPage.vue'
@@ -13,6 +14,7 @@ import pt_br from '@/products/translations/pt_br'
 export const createProducts = (app) => {
   // Add components
   app.component('w-product', ProductComponent)
+  app.component('w-videns', VidensComponent)
 
   // Setup routes
   const routes = [

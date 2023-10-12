@@ -9,7 +9,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import { createBase } from '@/base'
 import { createProducts } from '@/products'
 import { createResearch } from '@/research'
-import { createServices } from '@/services'
+// import { createServices } from '@/services'
 
 import App from '@/App.vue'
 
@@ -25,7 +25,7 @@ const modules = [
   createBase(app),
   createProducts(app),
   createResearch(app),
-  createServices(app),
+  // createServices(app),
 ]
 
 const history = createWebHashHistory()

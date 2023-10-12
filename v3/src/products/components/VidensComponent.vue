@@ -11,11 +11,6 @@ defineProps({
       <w-col full>
         <h3 :class="name"><w-i18n :t="`${name}.title`" /></h3>
         <p><w-i18n :t="`${name}.description`" /></p>
-        <w-button
-          :href="name === 'simplesia' ? 'https://simplesia.com' : `/products/${name}`"
-          secondary>
-          <w-i18n t="more" />
-        </w-button>
       </w-col>
       <img :src="`/images/${name}.jpg`" />
     </w-row>
@@ -28,7 +23,7 @@ defineProps({
   width: 100%;
 
   @media (max-width: $sm) {
-    width: 70vw;
+    width: 0vw;
   }
 
   button {
@@ -36,7 +31,7 @@ defineProps({
   }
 
   h3 {
-    font-size: 6rem;
+    font-size: 1.5rem;
     margin: 0;
     padding: 0;
     width: min-content;
@@ -57,7 +52,7 @@ defineProps({
   }
 
   p{
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 }
 </style>

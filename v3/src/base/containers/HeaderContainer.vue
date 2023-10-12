@@ -4,9 +4,9 @@ import { ref } from 'vue'
 
 const links = ref([
   { to: '/', t: 'home' },
-  { to: '/contact', t: 'contact' },
   { to: '/products', t: 'products' },
-  { to: '/services', t: 'services' },
+  { to: '/contact', t: 'contact' },
+  // { to: '/services', t: 'services' },
 ])
 </script>
 
