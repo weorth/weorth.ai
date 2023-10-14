@@ -23,7 +23,7 @@ defineProps({
   width: 100%;
 
   @media (max-width: $sm) {
-    width: 0vw;
+    width: 75vw;
   }
 
   button {
